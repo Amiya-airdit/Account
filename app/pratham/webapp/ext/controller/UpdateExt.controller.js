@@ -1,6 +1,7 @@
 sap.ui.define(['sap/ui/core/mvc/ControllerExtension', "sap/m/MessageBox"], function (ControllerExtension, MessageBox) {
 	'use strict';
 
+	// comment
 	return ControllerExtension.extend('pratham.ext.controller.UpdateExt', {
 		// this section allows to extend lifecycle hooks or hooks provided by Fiori elements
 		override: {
