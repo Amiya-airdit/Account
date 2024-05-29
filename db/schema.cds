@@ -1,14 +1,19 @@
 namespace Pratham;
-//Account Page:-
-entity DepartmentView {
-    key id              : UUID;
-        name            : String;
-        email           : String;
-        description     : String;
-        postalcode      : String;
-        createdDateTime : Date;
-        applicationType : String;
-        createdBy       : String;
-        status          : String default 'Active';
-        statusCriticality: String default '3';
+ 
+//[Departments] table:-
+ 
+entity Departments {
+key name : String;
+// groupadminList : array of String;
+// isMdpeQU : Boolean;
+// isSteelQU : Boolean;
+// isQUAssigned : Boolean;
+postalcode : String;
+applicationType : String;
+// mapType : String;
+createdDateTime : String;
+isDeleted : Boolean default false;
+description : String;
+isActive : Boolean default true;
+createdBy : String; //This field we added extra to match like MockUp.
 }

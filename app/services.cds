@@ -1,2 +1,2 @@
 
-using from './pratham/annotations';
+using from './account/annotations';

@@ -1,8 +1,8 @@
 using Pratham from '../db/schema';
-
+ 
 //Service entity :-
-
+ 
 service Account {
-    entity deptviews as projection on Pratham.DepartmentView;
-
+entity departments as projection on Pratham.Departments;
+ 
 }

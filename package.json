@@ -8,21 +8,23 @@
   "dependencies": {
     "@sap/cds": "^7.9.1",
     "@sap/xssec": "^3",
-    "axios": "^1.6.8",
+    "axios": "^1.7.2",
     "express": "^4",
-    "mongodb": "^6.5.0"
+    "mongodb": "^6.6.2"
   },
   "devDependencies": {
     "@cap-js/sqlite": "^1",
     "@sap/cds-dk": "^7.9.1",
-    "@sap/ux-specification": "^1.120.9"
+    "@sap/ux-specification": "^1.120.11"
   },
   "scripts": {
     "start": "cds-serve",
-    "watch-pratham": "cds watch --open pratham/webapp/index.html?sap-ui-xx-viewCache=false"
+    "watch-pratham": "cds watch --open pratham/webapp/index.html?sap-ui-xx-viewCache=false",
+    "watch-account": "cds watch --open account/webapp/index.html?sap-ui-xx-viewCache=false"
   },
   "sapux": [
-    "app/pratham"
+    "app/pratham",
+    "app/account"
   ],
   "cds": {
     "requires": {

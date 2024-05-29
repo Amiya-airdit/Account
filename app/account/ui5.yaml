@@ -1,0 +1,4 @@
+specVersion: "2.5"
+metadata:
+  name: com.airdit.agpp.accounts.account
+type: application
