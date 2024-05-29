@@ -88,12 +88,8 @@
           "pattern": ":?query:",
           "name": "departmentsList",
           "target": "departmentsList"
-        },
-        {
-          "pattern": "departments({key}):?query:",
-          "name": "departmentsObjectPage",
-          "target": "departmentsObjectPage"
         }
+      
       ],
       "targets": {
         "departmentsList": {
@@ -104,13 +100,7 @@
             "settings": {
               "contextPath": "/departments",
               "variantManagement": "Page",
-              "navigation": {
-                "departments": {
-                  "detail": {
-                    "route": "departmentsObjectPage"
-                  }
-                }
-              },
+              
               "controlConfiguration": {
                 "@com.sap.vocabularies.UI.v1.LineItem": {
                   "tableSettings": {

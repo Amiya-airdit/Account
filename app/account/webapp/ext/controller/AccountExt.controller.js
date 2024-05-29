@@ -16,7 +16,7 @@ sap.ui.define(['sap/ui/core/mvc/ControllerExtension',"sap/m/MessageBox"], functi
 			}
 		},
 		onCreateaccount:function(){
-			console.log("create")
+			
 			this.createFragment = sap.ui.xmlfragment("com.airdit.agpp.accounts.account.ext.fragments.create", this);
 			this.getView().addDependent(this.createFragment);
 			this.createFragment.open();

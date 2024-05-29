@@ -15,7 +15,7 @@ sap.ui.define(['sap/ui/core/mvc/ControllerExtension',"sap/m/MessageBox"], functi
 			}
 		},
 		onUpdateAccount: function(){
-			console.log("updatew")
+			
 			this.updateFragment = sap.ui.xmlfragment("com.airdit.agpp.accounts.account.ext.fragments.update", this);
 			this.getView().addDependent(this.updateFragment);
 			this.updateFragment.open()
